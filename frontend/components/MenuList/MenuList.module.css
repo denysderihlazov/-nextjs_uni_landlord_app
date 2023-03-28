@@ -1,0 +1,105 @@
+.my-ul {
+    list-style: none;
+    display: flex;
+    gap: 5%;
+    font-size: 16px;
+    font-family: sans-serif;
+    max-width: 100%;
+    padding-left: 0;
+}
+
+.my-ul li {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.my-ul li:hover {
+    text-decoration: underline;
+}
+
+.active__menu__item {
+    color: #887ff2;
+    background-color: rgba(232,230,249,0.5);
+}
+
+.menu__signup {
+    background-color: #6c62e8;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.menu__login {
+    border: 2px solid #887ff2;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    margin-right: 20px;
+}
+
+.menu__auth {
+    display: flex;
+    margin-left: auto;
+}
+
+.menu__logout {
+    background-color: #6c62e8;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+@media (max-width: 768px) {
+    .my-ul li a, .my-ul .menu__auth, .my-ul .menu__logout, .my-ul .menu__login {
+        font-size: 14px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-ul-clicked {
+        list-style: none;
+        display: block;
+        gap: 5%;
+        font-size: 16px;
+        font-family: sans-serif;
+        max-width: 100%;
+        padding-left: 0;
+    }
+
+    .my-ul-clicked .menu__auth a {
+        flex: 1;
+        text-align: center;
+    }
+
+    .my-ul li, .my-ul .menu__auth {
+        display: none;
+    }
+
+    .my-ul-clicked li {
+        display: block;
+    }
+
+    .my-ul-clicked .menu__auth {
+        display: flex;
+    }
+}
+  

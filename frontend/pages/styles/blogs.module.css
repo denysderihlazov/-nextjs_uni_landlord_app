@@ -1,0 +1,233 @@
+.flex {
+    display: flex;
+}
+
+.card__title {
+    font-size: 18px;
+    color: #01092a;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    cursor: pointer;
+}
+
+.card__wrapper img {
+    cursor: pointer;
+}
+
+.card__info__wrapper {
+    padding: 0 20px;
+}
+
+.card__description {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card__author {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.card__price {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #7065f0;
+}
+
+.card__address {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.card__monthly {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #989ba8
+}
+
+.blog__details__header {
+    font-family: 'Outfit', sans-serif;
+}
+
+.blog__detailed__address {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.blog__detailed__price {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #7065f0;
+}
+
+.blog__detailed__description {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card__rooms {
+    display: flex;
+    align-items: center;
+}
+
+.card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    padding: 0 20px;
+    color: #8e8e8e;
+}
+
+.card__footer svg {
+    color: #7065f0;
+    padding-right: 5px;
+}
+
+.blog__details__image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog__details__image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    transition: transform 0.3s ease-out;
+}
+
+.blog__details__squaremetters {
+    display: flex;
+    align-items: center;
+}
+
+.blog__details__icon__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.blog__details__icon__wrapper span {
+    margin-left: 10px;
+}
+
+.blog__details__icon__wrapper svg {
+    color: #686868;
+
+}
+
+.blog__details__icon__title {
+    color: #8e8e8e;
+    font-size: 16px;
+}
+
+.blogs__details__info {
+    display: flex;
+}
+
+.blog__details__image:hover img {
+    transform: translate(-50%, -60%);
+}
+
+.blog__details__icon__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .blog__details__image img {
+    transform: translate(-50%, -50%);
+  }
+
+  .blog__details__image:hover img {
+    transform: translate(-50%, -50%);
+  }
+
+  .blog__details__icon__title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+    .blog__details__icon__title {
+        display: none !important;
+    }
+}
+
+.card__horizontal__line {
+    padding: 0 20px;
+}
+
+.card__horizontal__line hr {
+    border: none;
+    border-top: 2px solid #cdccda;
+}
+
+/* Testimonoials Start */
+.testimonials__quote {
+    padding: 40px 20px 0px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.testimonials__quote__persona {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials__quote {
+        padding: 30px 10px 0px;
+    }    
+}
+/* Testimonoials End */
+
+/* Section Map Start */
+.section__with__map {
+    background-image: url('../../public/shared/map-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section Map End */
+
+/* Counter Start */
+.counter__wrapper {
+    display: block ruby;
+    padding-left: 0;
+}
+
+.counter__wrapper p {
+    padding-left: 20px;
+    border-left: 2px solid #cdccda;
+}
+
+.counter {
+    padding-left: 0;
+}
+/* Counter End */
+
+/* Subscribe Start */
+@media screen and (min-width: 768px) {
+    .subscribe__section {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe__section {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+/* Subscribe End */

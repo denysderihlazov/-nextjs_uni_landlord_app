@@ -1,0 +1,33 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #ffffff;
+	font-weight: 700;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+:root {
+	--black: #3B434E;
+	--gray-light: #EBEBEB;
+	--white: white;
+	--primary: #901be2;
+	--primary-hover: #781cba;
+	--red: #FC836D;
+	--green: #1DC37E;
+	--green-light: #C8F8e4;
+	--dark-green: #173e2f;
+	--dark-green-hover: #0e271e;
+	--color-green: #249c6e;
+}
+
+.block__centered {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

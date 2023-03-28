@@ -1,0 +1,106 @@
+/* stylelint-disable order/properties-order */
+/* stylelint-disable indentation */
+
+.p {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.s {
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.m {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.l {
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.xl {
+    font-size: 36px;
+    line-height: 42px;
+    font-family: sans-serif;
+}
+
+.xxl {
+    font-size: 50px;
+    line-height: 60px;
+    font-family: sans-serif;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+.dark_blue {
+    color: #100a55;
+}
+
+.violet {
+    color: #6258da;
+}
+
+.gray {
+    color: #6c6e8a;
+}
+
+@media (max-width: 768px) {
+    .s {
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .m {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .l {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    .xl {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    .xxl {
+      font-size: 40px;
+      line-height: 48px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .s {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .m {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .l {
+      font-size: 32px;
+      line-height: 30px;
+    }
+    .xl {
+      font-size: 36px;
+      line-height: 42px;
+    }
+    .xxl {
+      font-size: 50px;
+      line-height: 60px;
+    }
+}
+  
