@@ -46,4 +46,3 @@ declare module '*.png' {
     const content: import('../dist/client/image').StaticImageData;
     export default content;
   }
-  
