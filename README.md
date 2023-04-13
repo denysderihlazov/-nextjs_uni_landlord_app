@@ -1,7 +1,7 @@
 # To install all dependencies
 npm i 
 
-# To start backend
+# To start backend side
 cd backend
 
 npm start
